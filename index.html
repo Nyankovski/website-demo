@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PixelHive — Digital Drawing Collective</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #1a1a1a;
+      color: #f1f1f1;
+    }
+    header {
+      background: #222;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #ff6f61;
+    }
+    nav {
+      margin-top: 8px;
+    }
+    nav a {
+      color: #ccc;
+      margin: 0 8px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #ff6f61;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 16px;
+    }
+    section {
+      margin-bottom: 32px;
+    }
+    h2 {
+      border-bottom: 2px solid #ff6f61;
+      padding-bottom: 6px;
+      margin-bottom: 12px;
+    }
+    .member-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+    }
+    .member {
+      background: #2a2a2a;
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+    }
+    .member img {
+      width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      height: 120px;
+      margin-bottom: 8px;
+    }
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .portfolio img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+      height: 140px;
+      background: #333;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .service {
+      background: #2a2a2a;
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+      background: #222;
+    }
+    form {
+      display: grid;
+      gap: 10px;
+    }
+    input, textarea {
+      padding: 8px;
+      border-radius: 6px;
+      border: none;
+      background: #2b2b2b;
+      color: #fff;
+    }
+    button {
+      padding: 10px;
+      background: #ff6f61;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background: #e65c50;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PixelHive</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#members">Members</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>PixelHive is an ICT digital drawing collective of five talented artists exploring the intersection of technology and creativity. We specialize in digital illustrations, concept art, and interactive visuals.</p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Digital Illustration</h3>
+          <p>High-quality illustrations for web, print, and digital campaigns.</p>
+        </div>
+        <div class="service">
+          <h3>Concept Art</h3>
+          <p>Creative visual development for games, apps, and media projects.</p>
+        </div>
+        <div class="service">
+          <h3>3D Modeling & Animation</h3>
+          <p>Dynamic 3D assets and animations for interactive experiences.</p>
+        </div>
+        <div class="service">
+          <h3>UI/UX Design</h3>
+          <p>User-focused interfaces and experience design for digital products.</p>
+        </div>
+        <div class="service">
+          <h3>Motion Graphics</h3>
+          <p>Engaging motion visuals for marketing, media, and digital storytelling.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="members">
+      <h2>Our Members</h2>
+      <div class="member-grid">
+        <div class="member">
+          <img src="https://via.placeholder.com/150" alt="Member 1">
+          <h3>Baryl Sam G. Xiao</h3>
+          <p>Lead Illustrator</p>
+        </div>
+        <div class="member">
+          <img src="https://via.placeholder.com/150" alt="Member 2">
+          <h3>John Patric Tuico</h3>
+          <p>Concept Artist</p>
+        </div>
+        <div class="member">
+          <img src="https://via.placeholder.com/150" alt="Member 3">
+          <h3>Lea Maluga</h3>
+          <p>3D Artist</p>
+        </div>
+        <div class="member">
+          <img src="https://via.placeholder.com/150" alt="Member 4">
+          <h3>Liven Porquez</h3>
+          <p>Animator</p>
+        </div>
+        <div class="member">
+          <img src="https://via.placeholder.com/150" alt="Member 5">
+          <h3>Norberto Bontimel</h3>
+          <p>UI/UX Designer</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="portfolio">
+        <img src="https://scontent.fmnl33-1.fna.fbcdn.net/v/t1.15752-9/554060371_1167422945286468_3217873579785898451_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHKqsBrYaUb5qFZBTUT1596Wi50KaAdcbpaLnQpoB1xuj3HYRqAe66SZajvI-OXFg6LkayZENvPa0f0p-JcwKvy&_nc_ohc=IeYGX0C9miUQ7kNvwHztdh_&_nc_oc=AdlBuEmQvoAXP-of9I1pDSTqRAaSAOgfTLsoQ7V9vGEbxQkcqUGYKxybflBSZjaMjIk&_nc_zt=23&_nc_ht=scontent.fmnl33-1.fna&oh=03_Q7cD3gED5ehiW86XI0OW5Fzbjeeps50ABzAXhRFSt95aqpjpQg&oe=691EEDDF" alt="Project 1">
+        <img src="https://scontent.fmnl33-5.fna.fbcdn.net/v/t1.15752-9/566545625_1604392043862648_7426604406654160172_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGZin7Od37X2Oy6rapNpXQfBBC1DQ_EMA4EELUND8QwDs_TxbP6dcmhEHvQa-yaPCG5qmCn8oKsywqTmSwgLf-0&_nc_ohc=d5gbfqk4IBsQ7kNvwGSMkOS&_nc_oc=AdnP6UwJEkYy_OpqugsY2dgfNmAlCa56gg0lU3Gn83NTpoMko9J48LlZCkHYBukgh-M&_nc_zt=23&_nc_ht=scontent.fmnl33-5.fna&oh=03_Q7cD3gGVi0DDSBI8GxMPwqfDuLIRao-rY_klItrwSMtSdQfu2A&oe=691F17C8" alt="Project 2">
+        <img src="https://scontent.fmnl33-4.fna.fbcdn.net/v/t1.15752-9/566171547_1095421555744811_2094245819507666070_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHj0B-QPFghxrR4I7PQOomGCDlbc1-zMMYIOVtzX7Mwxo3FgPgX8ToQG7DSuh5CcR9YNYVcpvzu-GGVcEjkWM5J&_nc_ohc=7lfHPhwASewQ7kNvwEnlIWm&_nc_oc=AdkCv-nN2CHshE7G4msZU5i8zbOKr9wM85Po1Doi-xqyKvM9tEzUk4lOivEH-_e-flI&_nc_zt=23&_nc_ht=scontent.fmnl33-4.fna&oh=03_Q7cD3gFgZVo7g1kIrCoAhXWqVOJ1VjV_Go96iEVSYru6t9WXpg&oe=691F1047" alt="Project 3">
+        <img src="https://scontent.fmnl33-4.fna.fbcdn.net/v/t1.15752-9/566523959_1215382700424518_4242050187773497870_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFd32P9v92FpwKnjwcF9aRZ8qXvOOPeV-nype84495X6RMjQzbZqJXzN4XNmWZrTI_9fkkx3O7uBl4J6afZdhyD&_nc_ohc=O0H9mSO_sewQ7kNvwHCG9SJ&_nc_oc=AdmM3hp93F0n--raLBuBFKeeFMw83ODbLViiBFrgC4qiKdYbq6JckyoE7mgQc_P_dZo&_nc_zt=23&_nc_ht=scontent.fmnl33-4.fna&oh=03_Q7cD3gGgMklxai2U8mRhZrSxzO6vE51xd37mEOkFXehcz3NgcA&oe=691F042A" alt="Project 4">
+        <img src="https://scontent.fmnl33-1.fna.fbcdn.net/v/t1.15752-9/566539553_24422392050795891_5426886890611714235_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeF_cAMV4dcHzOSoM2EYPbk_fpyJVtKOxcZ-nIlW0o7Fxiz9LFp6lm-4d_TO4HjP4E6NPGO3lAj5fSlaqJtbEEzU&_nc_ohc=GkreGGB1mnIQ7kNvwEn_m8Q&_nc_oc=AdlBZhUu9_E63zkd_eMwLijcFGuDL_mKBjWOaAq426P8pltnmKzmSRNmY7xt9X7bH7U&_nc_zt=23&_nc_ht=scontent.fmnl33-1.fna&oh=03_Q7cD3gHIu_shMCX5t_btcfzr2OLGZ3QSCJj61IbtaN6p09WK2w&oe=691F1822" alt="Project 5">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form onsubmit="submitForm(event)">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Project details" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 PixelHive — digital drawing collective demo.
+  </footer>
+
+  <script>
+    function submitForm(e){
+      e.preventDefault();
+      alert('Form submitted! (demo only)');
+    }
+  </script>
+</body>
+</html>
